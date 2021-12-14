@@ -7,7 +7,7 @@ This repo implements three different Transmission Expansion Planning (TEP) model
 
 (iii) Model 3, TEP w. Enhanced SNO ("TEP-SNO-T2"), this TEP model optimizes the network topology for each season in the planning horizon. In this model, the status of new lines is also optimized. In other words, a new line can be disconnected from the network for the subsequent seasons after its construction.
 
-For simulation results provided were obtained with the following computer: Intel Xeon W-2195 2.3GHz, 4.3GHz Turbo, 18C, 24.75M Cache, HT, (140W) DDR4-2666; 128GB (8x16GB) DDR4 2666MHz RDIMM ECC; M.2 512GB PCIe NVMe Class 40 Solid State Drive.
+For simulation results provided here were obtained with the following computer: Intel Xeon W-2195 2.3GHz, 4.3GHz Turbo, 18C, 24.75M Cache, HT, (140W) DDR4-2666; 128GB (8x16GB) DDR4 2666MHz RDIMM ECC; M.2 512GB PCIe NVMe Class 40 Solid State Drive.
 
 The following paper provides more details about these three models: 
 
