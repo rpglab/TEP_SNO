@@ -1,0 +1,18 @@
+data;
+param: BUS: bus_num :=       # data for the Buses
+        include case24_bus.dat;
+
+param: BRANCH: branch_fbus branch_tbus branch_x  branch_rateA :=    # data for the Lines 
+        include case24_branch.dat;
+
+param: GEN: gen_bus gen_Pmax gen_Pmin gen_Cost :=     # data for the GENs
+        include case24_gen.dat;
+
+#param: HOUR: LoadPct :=     # data for the GENs
+#        include case24_loadPct.dat;
+
+param: NEWLINE: NL_fbus NL_tbus NL_x  NL_rateA NL_cost :=        # data for the 138kv level Lines 
+        include case24_newLine.dat;
+		
+data case24_loadPct.dat;
+data case24_load.dat;
