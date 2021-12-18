@@ -7,6 +7,9 @@ This repo implements three different Transmission Expansion Planning (TEP) model
 
 (iii) Model 3, TEP w. Enhanced SNO ("TEP-SNO-T2"), this TEP model optimizes the network topology for each season in the planning horizon. In this model, the status of new lines is also optimized. In other words, a new line can be disconnected from the network for the subsequent seasons after its construction.
 
+The test case used here is a modified IEEE RTS-96 reliability test system (24-bus) that was initially developed by the IEEE reliability subcommittee and published in 1979 and later enhanced in 1996. Reference: "The IEEE Reliability Test System-1996. A report prepared by the Reliability Test System Task Force of the Application of Probability Methods Subcommittee" and link: https://ieeexplore.ieee.org/document/780914.
+Though only tested on this single system here, these codes can work on any other systems.
+
 For simulation results provided here were obtained with the following computer: Intel Xeon W-2195 2.3GHz, 4.3GHz Turbo, 18C, 24.75M Cache, HT, (140W) DDR4-2666; 128GB (8x16GB) DDR4 2666MHz RDIMM ECC; M.2 512GB PCIe NVMe Class 40 Solid State Drive.
 
 The following paper provides more details about these three models: 
