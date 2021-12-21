@@ -1,6 +1,7 @@
-# Developed by Xingpeng.Li
 # Transmission Expansion Planning with Seasonal Network Optimization
 # TEPwSNO
+# Developed by Xingpeng.Li
+#    Website: https://rpglab.github.io/
 # model TEPwSNO.mod;
 
 reset;

@@ -1,6 +1,7 @@
-# Developed by Xingpeng.Li
 # initial candidate line selection for
 # Transmission Expansion Planning w. & w.o. Seasonal Network Optimization
+# Developed by Xingpeng.Li
+#    Website: https://rpglab.github.io/
 # model init.mod;
 
 reset;

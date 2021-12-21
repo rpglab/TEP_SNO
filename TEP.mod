@@ -1,5 +1,6 @@
-# Developed by Xingpeng.Li
 # Transmission Expansion Planning (TEP)
+# Developed by Xingpeng.Li
+#    Website: https://rpglab.github.io/
 # model TEP.mod;
 
 reset;
